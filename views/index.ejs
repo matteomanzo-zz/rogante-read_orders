@@ -8,7 +8,7 @@
   <body>
     <% if (shoes) { %>
       <% for(var i = 0; i <= shoes.length - 1; i++) { %>
-        <% if (shoes[i].size == 43) { %>
+        <% if (shoes[i].todo == true) { %>
           <p>
             <%= shoes[i].model %>
             <%= shoes[i].colour %>
